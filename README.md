@@ -3,6 +3,7 @@ Desde el 16 de mayo de 1929 la entrega del Premio de la Academia de Artes y Cien
 
 
 **`Antecedentes`**
+
 Es bien sabido que cada película es diferente y lleva a cabo un proceso distinto; algunas pueden tener un presupuesto relativamente bajo (de algunos millones de dólares) mientras que otras pueden llegar a $379$ millones de dólares, como Piratas del Caribe: En Mareas Misteriosas que ha sido la película más costosa hasta el momento (Bedard, 2022). Sin embargo, según Investopedia, el presupuesto promedio para una película de Hollywood es de $65$ milliones de dólares sin incluir la inversión de pubilicidad. Esto último en promedio cuesta la mitad que la producción; $35$ milliones de dólares aproximadamente, dando un total de $100$ milliones de dólares en promedio. Considerando que ha habido $581$ películas nominadas para la estatuilla dorada por "Mejor Película" y únicamente han ganado $94$, se creará un modelo para predecir si una película ganará dicho premio basado en diferentes características, incluyendo su presupuesto.
 
 **`Objetivos`**
@@ -11,6 +12,7 @@ Es bien sabido que cada película es diferente y lleva a cabo un proceso distint
 + Acceder al modelo a través de una API
 
 **`Planteamiento del problema`**
+
 Se trabajará con un conjunto de datos con información de distintas películas con el objetivo de resolver un problema de clasificación para predecir si una película va a ganar un premio Óscar o no. Dicho conjunto de datos contiene $506$ registros (o filas) de películas y $19$ variables (o columnas), que son las siguientes:
 + **Marketing expense** $\Rightarrow$ cuánto se gastó en mercadotecnia, en millones de dólares
 + **Production expense** $\Rightarrow$ cuánto se gastó en la producción de la película, en millones de dólares
