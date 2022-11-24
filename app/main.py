@@ -11,10 +11,10 @@ API_KEY_NAME = "password"
 api_key_query = APIKeyQuery(name=API_KEY_NAME, auto_error=False)
 
 app = FastAPI(
-    title = "Título",
-    description = "Esta API recibe un parámetro tipo body con variables sobre una película para predecir si"
-                  "ganará un premio Óscar o no.",
-    version = "0.0.1"
+    title="Título",
+    description="Esta API recibe un parámetro tipo body con variables sobre una película para predecir si"
+                "ganará un premio Óscar o no.",
+    version="0.0.1"
 )
 
 
@@ -75,7 +75,7 @@ async def classify_oscar(oscar: Oscar, api_key: APIKey = Depends(get_api_key)):
                oscar.third_D]]
     pred = model_rf.predict(params)
     dict_oscar = {0: 'Did not win an Oscar Award.',
-                 1: 'Won an Oscar Award.'}
+                  1: 'Won an Oscar Award.'}
     return {"Oscar Award": dict_oscar.get(pred[0]),
             'Description': "Prediction correctly executed"}
 
