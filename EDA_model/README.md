@@ -1,0 +1,1 @@
+Dentro de esta carpeta, el archivo `Proyecto_Final.ipynb` es un *Jupyter Notebook* que contiene el análisis exploratorio, preprocesamiento y tratamiento de datos, así como el entrenamiento, la prueba y selección del modelo.
