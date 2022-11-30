@@ -8,7 +8,7 @@ Este repositorio está estructurado de la siguiente manera:
   + `Proyecto_Final.ipynb` $\rightarrow$ Jupyter Notebook que contiene el análisis exploratorio, preprocesamiento y tratamiento de datos, así como el entrenamiento, la prueba y selección del modelo
 + app $\Rightarrow$ Carpeta con lo necesario para la API
   + model $\rightarrow$ Carpeta con el modelo final seleccionado
-    + `rf_classifier.pkl` Modelo de clasificación seleccionado (bosque aleatorio) en la archivo `Proyecto_Final.ipynb`
+    + `rf_classifier.pkl` Modelo de clasificación seleccionado (bosque aleatorio) en la archivo *Proyecto_Final.ipynb*
   + `Dockerfile` $\rightarrow$ Imagen para Docker
   + `deployment_project.yaml` $\rightarrow$ Manifiesto
   + `main.py` $\rightarrow$ Archivo con el desarrollo de la API y los *endpoints* necesarios
@@ -17,9 +17,11 @@ Este repositorio está estructurado de la siguiente manera:
   + `raw_data.csv` $\rightarrow$ Archivo separado por comas con los datos en bruto, obtenidos de [kaggle.com]()
   + `tidy_data.csv` $\rightarrow$ Archivo separado por comas con los datos limpios y listos para entrenar el modelo
 + images $\Rightarrow$ Carpeta con las imágenes para evidencias el proceso de conteneirizar del servicio, subir la imagen a la nube, despliegar el servicio en la nube (clúster de Kubernetes)
-  + `Docker_image.png` $\rightarrow$ captura de pantalla de la imagen en la herramienta Docker
-  + `Ejecucion_contenedor.png` $\rightarrow$ captura de pantalla de la predicción generada con la herramienta Postman accediendo a la clave externa
-  + `Imagen_nube.png` $\rightarrow$ captura de pantalla de la imagen en la nube
-  + `proceso_contenedor.png` $\rightarrow$ captura de pantalla del contenedor ejecutado
+  + `Cloud_pred.jpeg` $\rightarrow$ Captura de pantalla de la predicción generada con la herramienta Postman accediendo de manera externa
+  + `Docker_image.png` $\rightarrow$ Captura de pantalla de la imagen en la herramienta Docker
+  + `Ejecucion_contenedor.png` $\rightarrow$ Captura de pantalla de la predicción generada con la herramienta Postman accediendo de manera local
+  + `Imagen_nube.png` $\rightarrow$ Captura de pantalla de la imagen en la nube
+  + `Pods_cloud.jpeg` $\rightarrow$ Captura de pantalla de los *pods* en la nube
+  + `proceso_contenedor.png` $\rightarrow$ Captura de pantalla del contenedor ejecutado
 + `AndTheOscarGoesTo.ipynb` $\rightarrow$ Jupyter Notebook con el reporte final del proyecto
 + `README.md` $\rightarrow$ Archivo actual
