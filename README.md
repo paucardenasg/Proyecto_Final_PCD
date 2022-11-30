@@ -24,4 +24,5 @@ Este repositorio está estructurado de la siguiente manera:
   + `Pods_cloud.jpeg` $\rightarrow$ Captura de pantalla de los *pods* en la nube
   + `proceso_contenedor.png` $\rightarrow$ Captura de pantalla del contenedor ejecutado
 + `AndTheOscarGoesTo.ipynb` $\rightarrow$ Jupyter Notebook con el reporte final del proyecto
++ `Presentación_Final.pptx` $\rightarrow$ Presentación de PowerPoint con el resumen del reporte
 + `README.md` $\rightarrow$ Archivo actual
