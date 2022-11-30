@@ -4,15 +4,15 @@ Desde el 16 de mayo de 1929 la entrega del Premio de la Academia de Artes y Cien
 Una vez se hayan analizado, preprocesado y tratado los datos, se probarán distintos modelos para comparar su desempeño y elegir el más óptimo. El modelo seleccionado se utilizará dentro de la API para poder acceder a la predicción. Finalmente, se creará una imagen para subirla a *Docker* y se creará un contenedor en la plataforma *Azure* para poder acceder al servidor a través de la nube.
 
 Este repositorio está estructurado de la siguiente manera:
-+ EDA_MODEL $\Rightarrow$ Carpeta que contiene el Análisis Exploratorio de Datos y el
++ EDA_MODEL $\Rightarrow$ Carpeta que contiene el Análisis Exploratorio de Datos y el modelado
   + `Proyecto_Final.ipynb` $\rightarrow$ Jupyter Notebook que contiene el análisis exploratorio, preprocesamiento y tratamiento de datos, así como el entrenamiento, la prueba y selección del modelo
-+ app
-  + model
-    + `rf_classifier.pkl`
-  + `Dockerfile`
-  + `deployment_project.yaml`
-  + `main.py`
-  + `requirements.txt`
++ app $\Rightarrow$ Carpeta con lo necesario para la API
+  + model $\rightarrow$ Carpeta con el modelo final seleccionado
+    + `rf_classifier.pkl` Bosque aleatorio seleccionado en la archivo `Proyecto_Final.ipynb`
+  + `Dockerfile` $\rightarrow$ Imagen para Docker
+  + `deployment_project.yaml` $\rightarrow$ Manifiesto
+  + `main.py` $\rightarrow$ Archivo con el desarrollo de la API y los *endpoints* necesarios
+  + `requirements.txt` $\rightarrow$ Archivo de texto con las librerías necesarias para correr el `main.py` y el `deployment_project.yaml` y sus versiones correspondientes
 + data
   + `raw_data.csv`
   + `tidy_data.csv`
@@ -20,8 +20,6 @@ Este repositorio está estructurado de la siguiente manera:
   + `Docker_image.png`
   + `Ejecucion_contenedor.png`
   + `Imagen_nube.png`
-  + `proceso_contenedor.png`
-+ `AndTheOscarGoesTo.ipynb`
-+ `README.md`
-
-se encuentra el reporte final del proyecto.
+  + `proceso_contenedor.png` $\rightarrow$ captura de pantalla
++ `AndTheOscarGoesTo.ipynb` $\rightarrow$ se encuentra el reporte final del proyecto
++ `README.md` $\rightarrow$ archivo actual
