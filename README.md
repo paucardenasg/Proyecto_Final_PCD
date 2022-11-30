@@ -14,7 +14,7 @@ Este repositorio está estructurado de la siguiente manera:
   + `main.py` $\rightarrow$ Archivo con el desarrollo de la API y los *endpoints* necesarios
   + `requirements.txt` $\rightarrow$ Archivo de texto con las librerías necesarias para correr el `main.py` y el `deployment_project.yaml` y sus versiones correspondientes
 + data $\Rightarrow$ Carpeta con los archivos .csv con los conjuntos de datos
-  + `raw_data.csv` $\rightarrow$ Archivo separado por comas con los datos en bruto, obtenidos de [kaggle.com]()
+  + `raw_data.csv` $\rightarrow$ Archivo separado por comas con los datos en bruto, obtenidos de [kaggle.com](https://www.kaggle.com/datasets/balakrishcodes/others?select=Movie_classification.csv)
   + `tidy_data.csv` $\rightarrow$ Archivo separado por comas con los datos limpios y listos para entrenar el modelo
 + images $\Rightarrow$ Carpeta con las imágenes para evidencias el proceso de conteneirizar del servicio, subir la imagen a la nube, despliegar el servicio en la nube (clúster de Kubernetes)
   + `Cloud_pred.jpeg` $\rightarrow$ Captura de pantalla de la predicción generada con la herramienta Postman accediendo de manera externa
